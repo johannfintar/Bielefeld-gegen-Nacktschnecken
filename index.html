@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bielefeld gegen Nacktschnecken e.V.</title>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500;700&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    :root {
+      --slug-green:#6ab04c;
+      --dark:#222;
+      --light:#f9f9f9;
+      --accent:#ff4d6d;
+    }
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+    }
+    body{
+      font-family:'Montserrat',sans-serif;
+      background:var(--light);
+      color:var(--dark);
+      line-height:1.6;
+    }
+    header{
+      background:var(--slug-green);
+      color:#fff;
+      padding:2rem 1rem;
+      text-align:center;
+      clip-path:polygon(0 0,100% 0,100% 85%,0 100%);
+    }
+    header h1{
+      font-family:'Kanit',sans-serif;
+      font-size:2.5rem;
+      margin-bottom:.5rem;
+      letter-spacing:2px;
+      text-transform:uppercase;
+    }
+    header p{
+      font-size:1.2rem;
+    }
+    nav{
+      background:#fff;
+      box-shadow:0 2px 4px rgba(0,0,0,.1);
+    }
+    nav ul{
+      display:flex;
+      justify-content:center;
+      gap:1.5rem;
+      padding:1rem 0;
+      list-style:none;
+    }
+    nav a{
+      color:var(--dark);
+      text-decoration:none;
+      font-weight:600;
+      transition:color .3s;
+    }
+    nav a:hover{
+      color:var(--slug-green);
+    }
+    section{
+      padding:4rem 1rem;
+      max-width:900px;
+      margin:0 auto;
+    }
+    section h2{
+      font-size:2rem;
+      margin-bottom:1rem;
+      color:var(--accent);
+      text-align:center;
+    }
+    #cause p{margin-bottom:1rem;}
+    #quiz-schedule table{
+      width:100%;
+      border-collapse:collapse;
+    }
+    #quiz-schedule th,#quiz-schedule td{
+      border:1px solid #ddd;
+      padding:.75rem;
+      text-align:center;
+    }
+    #quiz-schedule th{
+      background:var(--slug-green);
+      color:#fff;
+    }
+    #results ul{list-style:none;padding-left:0;}
+    #results li{margin-bottom:.5rem;}
+    .slug-alert{
+      background:var(--accent);
+      color:#fff;
+      padding:1rem;
+      margin:2rem 0;
+      border-radius:8px;
+      text-align:center;
+      animation:wiggle 3s infinite;
+    }
+    @keyframes wiggle{0%,100%{transform:rotate(0deg);}50%{transform:rotate(1deg);}}
+    footer{
+      background:var(--dark);
+      color:var(--light);
+      text-align:center;
+      padding:1rem;
+      font-size:.9rem;
+    }
+    .highlight{font-weight:bold;color:var(--slug-green);}
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Bielefeld gegen Nacktschnecken e.V.</h1>
+  <p>Wir quizzen. Wir trinken. Wir hassen Nacktschnecken<sup>*</sup>.</p>
+</header>
+
+<nav>
+  <ul>
+    <li><a href="#cause">Unser Anliegen</a></li>
+    <li><a href="#quiz-schedule">Quiz‑Termine</a></li>
+    <li><a href="#results">Ergebnisse</a></li>
+    <li><a href="#contact">Kontakt</a></li>
+  </ul>
+</nav>
+
+<section id="cause">
+  <h2>Unser Anliegen</h2>
+  <p>Seit Jahrhunderten (gefühlt) terrorisieren Nacktschnecken heimische Gärten, Biergärten und <span class="highlight">Bielefelder Bierdeckel</span>. Genug ist genug! Wir sagen: <strong>Schleim dich woanders hin!</strong></p>
+  <p>Mit messerscharfem Verstand, unerschütterlichem Pub‑Quiz‑Wissen und literweise Gerstensaft nehmen wir den Kampf gegen die schleimigen Invasoren auf. Bei uns trifft <em>biologischer Ekel</em> auf <em>trinkfreudige Trivia‑Liebe</em>.</p>
+  <div class="slug-alert">
+    <i class="fa-solid fa-triangle-exclamation"></i>
+    Achtung: Diese Website enthält Spuren von Ironie.<br>
+    *Keine Nacktschnecke wurde beim Erstellen dieser Seite verletzt.
+  </div>
+</section>
+
+<section id="quiz-schedule">
+  <h2>Quiz‑Termine</h2>
+  <table>
+    <thead>
+      <tr><th>Datum</th><th>Location</th><th>Motto‑Runde</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>18. Juli 2025</td><td>Kneipe &ldquo;Zum rostigen Bierdeckel&rdquo;</td><td>&ldquo;Artenvielfalt ohne Schleim&rdquo;</td></tr>
+      <tr><td>01. August 2025</td><td>Pub &ldquo;Hopfen & Herz&rdquo;</td><td>&ldquo;Bielefelder Verschwörungen&rdquo;</td></tr>
+      <tr><td>15. August 2025</td><td>Kult‑Keller &ldquo;Fräger&rdquo;</td><td>&ldquo;Wer bin ich ‑ Tieredition&rdquo;</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section id="results">
+  <h2>Letzte Ergebnisse</h2>
+  <ul>
+    <li>05. Juli 2025 – 1. Platz (54/60 Punkte) 🎉</li>
+    <li>21. Juni 2025 – 2. Platz (49/60 Punkte)</li>
+    <li>07. Juni 2025 – 1. Platz (56/60 Punkte) 🎉</li>
+  </ul>
+</section>
+
+<section id="contact">
+  <h2>Kontakt</h2>
+  <p>Du willst mitquizzen, Bier kaufen oder einfach nur über schleimfreie Gärten philosophieren? Schreib uns!</p>
+  <p><i class="fa-solid fa-envelope"></i> <a href="mailto:info@nacktschneckenfrei-bielefeld.de">info@nacktschneckenfrei-bielefeld.de</a></p>
+  <p><i class="fa-brands fa-instagram"></i> <a href="https://instagram.com/nacktschneckenfrei" target="_blank">@nacktschneckenfrei</a></p>
+</section>
+
+<footer>
+  &copy; 2025 Bielefeld gegen Nacktschnecken e.V. — <em>Schleim? Nein danke!</em>
+</footer>
+
+</body>
+</html>
